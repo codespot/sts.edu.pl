@@ -1,0 +1,10 @@
+extends layout.jade
+
+block header
+    h1 Raporty i ekspertyzy
+
+block content
+    ul
+    each report in reports
+        li
+            a(href="/reports/" + report)= report
