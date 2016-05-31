@@ -20,7 +20,7 @@ var actions = [
   //{route: '/komunikaty', template: 'news'},
   {route: '/publikacje', template: 'publications', variables: {covers: covers}},
   //{route: '/obszary-badawcze', template: 'research'},
-  {route: '/raporty-i-ekspertyzy', template: 'reports', variables: {reports: reports}},
+  {route: '/raporty-i-ekspertyzy', template: 'reports'},
   {route: '/kontakt', template: 'contact'}
 ];
 
