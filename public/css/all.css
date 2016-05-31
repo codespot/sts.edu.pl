@@ -147,3 +147,32 @@ ul.menu li a:hover {
   background-position: 50% 50%;
   border: 10px solid #eee;
 }
+
+
+.project {
+  border-top: 5px solid #eee;
+  margin-top: 15px;
+}
+
+.project:first-child {
+  border-top: none;
+  margin-top: 0;
+}
+
+ul.partners {
+  padding-top: 20px;
+}
+
+ul.partners li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+ul.partners li a img {
+  height: 80px;
+  vertical-align: middle;
+}
+ul.partners li.lower-priority a img {
+  height: 40px;
+}
+

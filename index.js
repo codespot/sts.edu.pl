@@ -15,10 +15,6 @@ var covers = fs.readdirSync('public/covers').filter(function(file) {
   return path.extname(file) === '.png';
 });
 
-var reports = fs.readdirSync('public/reports').filter(function(file) {
-  return path.extname(file) === '.pdf';
-});
-
 var actions = [
   {route: '/', template: 'about'},
   //{route: '/komunikaty', template: 'news'},
