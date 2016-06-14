@@ -3,7 +3,8 @@ FROM node
 COPY . /src
 WORKDIR /src
 
-RUN npm install
+RUN npm rebuild
+RUN npm deploy
 
 ENV PORT 3000
 EXPOSE 3000
