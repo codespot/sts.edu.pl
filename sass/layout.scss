@@ -1,0 +1,176 @@
+$font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$icon-font-path: '/fonts/';
+$link-color: #666;
+
+@import 'node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.8em;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: #eee;
+}
+
+.header, .body, footer {
+  color: #666;
+  background: #fff;
+}
+
+.body {
+  padding-bottom: 15px;
+}
+
+.footer {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  color: #999;
+  text-align: center;
+}
+
+
+ol, ul {
+  padding: 10px;
+  margin: 0;
+}
+
+ul li {
+  list-style-position: inside;
+  padding: 2px 0;
+}
+
+
+ul li {
+  list-style-position: inside;
+  padding: 2px 0;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 14px;
+  padding: 0;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 14px;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+.padder {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-bottom: 10px;
+}
+
+.header img {
+  margin-top: 20px;
+  margin-left: -5px;
+  margin-bottom: 10px;
+}
+
+ul.menu {
+  padding-left: 0;
+}
+
+ul.menu li {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+ul.menu li a {
+  display: block;
+  float: right;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+ul.menu li a:hover {
+  background: #ddd;
+}
+
+.body-header {
+  background: #0a0073;
+  padding: 30px 0;
+}
+
+.body-content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.body-header h1 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 2em;
+}
+
+.publication {
+  display: block;
+  padding-bottom: 20px;
+  
+  .cover {
+    height: 350px;
+    @media (min-width: 600px) and (max-width: $screen-sm) {
+      height: 450px;
+    }
+    @media (max-width: 500px) {
+      height: 250px;
+    } 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 10px solid #eee;
+  }
+}
+
+
+.project {
+  border-top: 5px solid #eee;
+  margin-top: 15px;
+}
+
+.project:first-child {
+  border-top: none;
+  margin-top: 0;
+}
+
+ul.partners {
+  padding-top: 20px;
+}
+
+ul.partners li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+ul.partners li a img {
+  height: 80px;
+  vertical-align: middle;
+}
+ul.partners li.lower-priority a img {
+  height: 40px;
+}
+
