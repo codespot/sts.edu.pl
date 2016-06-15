@@ -1,10 +1,10 @@
 FROM node
 
-COPY . /src
+ADD . /src
 WORKDIR /src
 
 RUN npm rebuild
-RUN npm deploy
+RUN npm run deploy
 
 ENV PORT 3000
 EXPOSE 3000
